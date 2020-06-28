@@ -57,9 +57,9 @@ function LanguageBar({ lang: langKey }) {
               margin: 'auto',
             }}
           >
-            <div className="bar">
+            {/* <div className="bar">
               <LangButton lang={language} focused={displayLang} onClick={handleToggleLanguage} />
-            </div>
+            </div> */}
             <div className="toggle-content" style={toggleStyle}>
               <BalloonField style={{ padding: 20 }}>
                 <LangList languages={supportedLanguages} langKey={defaultLang} />

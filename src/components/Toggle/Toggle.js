@@ -155,7 +155,7 @@ export default class Toggle extends PureComponent {
     const { className, icons: _icons, ...inputProps } = this.props;
     const classes = `react-toggle${this.state.checked ? ' react-toggle--checked' : ''}${
       this.state.hasFocus ? ' react-toggle--focus' : ''
-    }${this.props.disabled ? ' react-toggle--disabled' : ''}${className ? ` ${className}` : ''}`;
+      }${this.props.disabled ? ' react-toggle--disabled' : ''}${className ? ` ${className}` : ''}`;
     return (
       <div
         className={classes}
@@ -165,11 +165,11 @@ export default class Toggle extends PureComponent {
         onTouchEnd={this.handleTouchEnd}
         onTouchCancel={this.handleTouchCancel}
       >
-        <div className="react-toggle-track">
+        {/* <div className="react-toggle-track">
           <div className="react-toggle-track-check">{this.getIcon('checked')}</div>
           <div className="react-toggle-track-x">{this.getIcon('unchecked')}</div>
         </div>
-        <div className="react-toggle-thumb" />
+        <div className="react-toggle-thumb" /> */}
 
         <input
           {...inputProps}
