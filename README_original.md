@@ -47,45 +47,27 @@ All configurable values are here: __./config/index.js__
 
   Display multiple language. (Only be shown when supportedLanguages > 1)
 
-  ![i18n](./screenshots/i18n.png)
-
   Display language link in every post. (You can disable it in config/index.js by displayTranslations: false)
-
-  ![translations](./screenshots/translations.png)
 
 * ## __overreacted design__
 
   [overreacted.io](https://overreacted.io/) lookings
 
-  ![top--light](./screenshots/top.png)
-
-  ![top--dark](./screenshots/top-dark.png)
-
 * ## __Tags__
 
   Display articles in same tag.
-
-  ![tag](./screenshots/tag.png)
-
-  ![alltags](./screenshots/alltags.png)
 
 * ## __Breadcrumbs__
 
   Display breadcrumbs in header part.
 
-  ![post](./screenshots/post.png)
-
 * ## __Relative posts__
 
   Display previous and next posts in same tag in footer part.
 
-  ![relative-posts](./screenshots/relative-posts.png)
-
 * ## __Disqus__
 
   Use disqus.com to enable comment.
-
-  ![disqus](./screenshots/disqus.png)
 
 * ## __eslint__
 
