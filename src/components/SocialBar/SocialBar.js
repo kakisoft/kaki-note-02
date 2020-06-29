@@ -21,7 +21,7 @@ function SocialBar() {
             {facebook && <Facebook username={facebook} />}
             {twitter && <Twitter username={twitter} />}
             {github && <Github username={github} />}
-            {medium && <Medium username={medium} />}
+            {/* {medium && <Medium username={medium} />} */}
           </div>
         );
       }}
