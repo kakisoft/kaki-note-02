@@ -6,7 +6,7 @@ const site = {
   siteUrl: 'https://kaki-note-02.netlify.app/',
   twitter: 'kakisoft_tab',
   github: 'kakisoft',
-  medium: '',
+  medium: 'kakisoft-portfolio-v2.netlify.com',
   facebook: 'kakisofttab',
   disqusShortName: 'kaki-note-02',
   googleTrackingId: '',

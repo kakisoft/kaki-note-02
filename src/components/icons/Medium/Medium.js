@@ -11,7 +11,7 @@ function Medium({ username, size, isLightTheme }) {
 
   return (
     <RotateLinkImg
-      href={`https://medium.com/@${username}`}
+      href={`https://${username}`}
       src={isLightTheme ? dark : light}
       size={size}
     />
