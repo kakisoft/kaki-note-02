@@ -1,3 +1,7 @@
+## blog URL
+https://kaki-note-02.netlify.app/
+
+__________________________________________
 ## Netlify
 
 #### Development Setting
